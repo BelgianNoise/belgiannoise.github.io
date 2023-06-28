@@ -1,0 +1,127 @@
+html {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #f5f5f5;
+  background: rgb(34,34,34);
+  background: linear-gradient(170deg, rgba(50,50,50,1) 7%, rgba(34,34,34,1) 15%, rgba(9,9,9,1) 70%);
+}
+p,body,html {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+
+a {
+  color: #f5f5f5;
+  padding: 0;
+  margin: 0;
+}
+
+.profile {
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 10px;
+}
+#profile-picture {
+  border-radius: 50%;
+  height: 85px;
+}
+#name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.information img {
+  height: 16px;
+}
+.information > * {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  padding: 10px 20px;
+}
+.socials > button {
+  flex: 1;
+}
+.socials a img {
+  height: 30px;
+  min-height: 30px;
+}
+.github-button {
+  color: #111;
+  background-color: #f5f5f5;
+}
+.linkedin-button {
+  background-color: #0066C8;
+}
+.socials button span {
+  flex: 1;
+  font-weight: bold;
+}
+.socials button a {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+} 
+.content h1 {
+  margin-bottom: 0;
+
+}
+
+.content-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content-item h2 {
+  margin-bottom: 0;
+  padding: 0 10px;
+  border-bottom: 1px solid #aaa;
+}
+.content-item img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+.content-item .description {
+  color: #a8a8a8;
+}
+.link-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.link-container img {
+  width: 20px;
+}
