@@ -44,6 +44,7 @@ export const ProjectContentRequest: Project = {
   ],
   link: 'https://nasaj.be',
   images: [
+    './screenshots/content-request/logo.png',
     './screenshots/content-request/home.png',
     './screenshots/content-request/overview.png',
     './screenshots/content-request/login.png',
