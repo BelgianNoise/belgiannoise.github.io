@@ -94,3 +94,18 @@ export const ProjectWaarStreamen: Project = {
   ],
   github: 'https://github.com/BelgianNoise/waar-streamen',
 };
+
+export const ProjectMyPortfolio: Project = {
+  title: 'My Portfolio',
+  description: `Mijn portfolio, de huidige website :). Gebouwd via het Mobile First principe.`,
+  tags: [
+    Tag.Svelte,
+    Tag.TS,
+    Tag.Node,
+    Tag.CSS,
+    Tag.HTML,
+  ],
+  link: 'https://belgiannoise.github.io/',
+  images: [],
+  github: 'https://github.com/BelgianNoise/belgiannoise.github.io',
+};
