@@ -1,4 +1,5 @@
 <script lang='ts'>
+  import '../app.css';
   import { writable } from 'svelte/store';
   import Profile from '../components/profile.svelte';
   import Project from '../components/project.svelte';
