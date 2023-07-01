@@ -97,4 +97,24 @@
     border-color: #1572B6;
     background-color: rgba(21, 114, 182, 0.2);
   }
+  .gcp {
+    color: #4285F4;
+    border-color: #4285F4;
+    background-color: rgba(66, 133, 244, 0.2);
+  }
+  .githubactions {
+    color: #aaa;
+    border-color: #aaa;
+    background-color: rgba(150, 150, 150, 0.2);
+  }
+  .vercel {
+    color: #888;
+    border-color: #888;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .redis {
+    color: #D82C20;
+    border-color: #D82C20;
+    background-color: rgba(216, 44, 32, 0.2);
+  }
 </style>

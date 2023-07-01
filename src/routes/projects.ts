@@ -52,3 +52,42 @@ export const ProjectContentRequest: Project = {
   github: 'https://github.com/BelgianNoise/react-plex-content-request',
 };
 
+export const ProjectColruytProductScraper: Project = {
+  title: 'Colruyt Product Scraper',
+  description: `Een tool geschreven in Go om alle producten van Colruyt
+  op te halen via hun API om daarna een overzicht te kunnen maken van alle
+  prijsveranderingen. Optimaal komt hier later nog een website bij om de prijs
+  geschiedenis van een product te kunnen bekijken, en worden er wekelijks mails
+  verstuurd met de interessantste prijsveranderingen.`,
+  tags: [
+    Tag.GO,
+    Tag.PostgreSQL,
+    Tag.GCP,
+    Tag.GithubActions,
+  ],
+  link: undefined,
+  images: [
+    './screenshots/colruyt-product-scraper/logo.png',
+  ],
+  github: 'https://github.com/BelgianNoise/colruyt-products-scraper',
+};
+
+export const ProjectWaarStreamen: Project = {
+  title: 'Waar Streamen',
+  description: ``,
+  tags: [
+    Tag.Svelte,
+    Tag.TS,
+    Tag.Node,
+    Tag.Vercel,
+    Tag.GCP,
+    Tag.GithubActions,
+    Tag.HTML,
+    Tag.CSS,
+  ],
+  link: 'https://waar-streamen.nasaj.be',
+  images: [
+    './screenshots/waar-streamen/logo.png',
+  ],
+  github: 'https://github.com/BelgianNoise/waar-streamen',
+};

@@ -60,6 +60,12 @@
   .link-container img {
     width: 20px;
   }
+  .link-container a {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
   .container .tags {
     display: flex;
     gap: 10px;

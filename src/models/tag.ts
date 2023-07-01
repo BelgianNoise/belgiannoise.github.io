@@ -15,4 +15,8 @@ export enum Tag {
   Svelte = 'Svelte',
   GO = 'GO',
   CSS = 'CSS',
+  GCP = 'GCP',
+  GithubActions = 'Github Actions',
+  Vercel = 'Vercel',
+  Redis = 'Redis',
 }
