@@ -3,7 +3,9 @@
 </script>
 
 <div class="profile">
-  <img id="profile-picture" src="./profile.png" alt="profile">
+  <div id="profile-picture">
+    <img src="./profile.png" alt="profile">
+  </div>
   <div class="information">
     <span id="name">
       Arthur Joppart (<span id="age">24</span>)
@@ -32,11 +34,16 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
-    padding: 20px 0 10px;
+    padding: 20px 10px 10px;
   }
   #profile-picture {
+    max-width: 85px;
+    max-height: 85px;
+  }
+  #profile-picture img {
     border-radius: 50%;
-    height: 85px;
+    max-width: 100%;
+    max-height: 100%;
   }
   #name {
     font-size: 20px;

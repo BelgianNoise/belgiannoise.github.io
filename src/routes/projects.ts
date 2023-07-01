@@ -74,7 +74,10 @@ export const ProjectColruytProductScraper: Project = {
 
 export const ProjectWaarStreamen: Project = {
   title: 'Waar Streamen',
-  description: ``,
+  description: `Een website waarop een gebruiker kan zoeken op welk streaming
+  platform een bepaalde film of serie beschikbaar is. De website ondersteunt
+  grote platformen van België en de grote wereldwijde platformen. De data wordt
+  opgehaald via gebruik van APIs en web scraping.`,
   tags: [
     Tag.Svelte,
     Tag.TS,

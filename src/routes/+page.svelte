@@ -24,9 +24,14 @@
   const navState = writable<'projects' | 'contributions' | 'busy'>('projects');
   const setNavState = (state: 'projects' | 'contributions' | 'busy') => {
     navState.set('busy');
-    setTimeout(() => navState.set(state), 110);
+    setTimeout(() => navState.set(state), 100);
   };
+
+  let innerWidth: number;
+  $: smallWindow = innerWidth < 700;
 </script>
+
+<svelte:window bind:innerWidth />
 
 <div id="sticky">
   <Profile />
@@ -52,8 +57,8 @@
 <div class="content">
   {#if $navState === 'projects'}
     <div
-      in:fly={{ x: -1000, duration: 100 }}
-      out:fly={{ x: -1000, duration: 100 }}
+      in:fly={smallWindow ? { x: '-100%', duration: 100 } : { x: '100%', duration: 100 }}
+      out:fly={smallWindow ? { x: '-100%', duration: 100 } : { x: '100%', duration: 100 }}
     >
       {#each projects as project}
         <Project {project} />
@@ -61,8 +66,8 @@
     </div>
   {:else if $navState === 'contributions'}
     <div
-      in:fly={{ x: 1000, duration: 100 }}
-      out:fly={{ x: 1000, duration: 100 }}
+      in:fly={{ x: '100%', duration: 100 }}
+      out:fly={{ x: '100%', duration: 100 }}
     >
       {#each contributions as project}
         <Project {project} />
@@ -96,9 +101,40 @@
     color: #aaa;
     border-radius: 0;
     font-size: 20px;
+    border: 0px solid #f5f5f5;
+    transition: all .1s ease-in-out;
   }
   .nav > button.selected {
-    border-bottom: 1px solid #f5f5f5;
+    border-bottom-width: 1px;
     color: inherit;
+  }
+
+  @media only screen and (min-width: 700px) {
+    #sticky {
+      position: relative;
+      background: transparent;
+      padding-top: 200px;
+      width: 400px;
+      float: left;
+      overflow: hidden;
+    }
+    .content {
+      width: calc(100% - 400px - 2*20px);
+      overflow-y: scroll;
+      height: calc(100vh - 20px);
+    }
+    .nav {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      max-width: 200px;
+      margin: auto;
+      margin-top: 20px;
+    }
+    .nav > button.selected {
+      border-left-width: 1px;
+      border-bottom: none;
+      color: inherit;
+    }
   }
 </style>
