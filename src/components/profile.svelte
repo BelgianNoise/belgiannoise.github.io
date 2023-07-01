@@ -1,5 +1,17 @@
-<script>
-
+<script lang="ts">
+  const calcAge = (birthDate: Date) => {
+    const now = new Date();
+    let yearDiff = now.getFullYear() - birthDate.getFullYear();
+    if (now.getMonth() < birthDate.getMonth()) {
+      yearDiff--;
+    } else if (now.getMonth() === birthDate.getMonth()) {
+      if (now.getDate() < birthDate.getDate()) {
+        yearDiff--;
+      }
+    }
+    return yearDiff;
+  };
+  $: age = calcAge(new Date('1998-10-09'));
 </script>
 
 <div class="profile">
@@ -8,7 +20,7 @@
   </div>
   <div class="information">
     <span id="name">
-      Arthur Joppart (<span id="age">24</span>)
+      Arthur Joppart ({age})
     </span>
     <div>
       <img src="./suitcase.svg" alt="suitcase icon">
