@@ -3,17 +3,19 @@
 </script>
 
 <div class="socials">
-  <button class="github-button">
+  <button
+    class="github-button"
+    on:click={() => window.open('https://github.com/BelgianNoise', '_blank')}
+  >
     <span>Github</span>
-    <a href="https://github.com/BelgianNoise" target="_blank" rel="noopener noreferrer">
-      <img src="./github.png" alt="github logo">
-    </a>
+    <img src="./github.png" alt="github logo">
   </button>
-  <button class="linkedin-button">
+  <button
+    class="linkedin-button"
+    on:click={() => window.open('https://www.linkedin.com/in/arthur-joppart-728a7817a/', '_blank')}
+  >
     <span>LinkedIn</span>
-    <a href="https://www.linkedin.com/in/arthur-joppart-728a7817a/" target="_blank" rel="noopener noreferrer">
-      <img src="./linkedin.png" alt="linkedin logo">
-    </a>
+    <img src="./linkedin.png" alt="linkedin logo">
   </button>
 </div>
 
@@ -27,10 +29,6 @@
   .socials > button {
     flex: 1;
   }
-  .socials a img {
-    height: 30px;
-    min-height: 30px;
-  }
   .github-button {
     color: #111;
     background-color: #f5f5f5;
@@ -42,8 +40,8 @@
     flex: 1;
     font-weight: bold;
   }
-  .socials button a {
-    display: flex;
-    align-items: center;
+  .socials button img {
+    height: 30px;
+    min-height: 30px;
   }
 </style>
