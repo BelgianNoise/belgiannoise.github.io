@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { Project } from '../models/project';
   import Tag from './tag.svelte';
+  import Carousel from './carousel.svelte';
 
   export let project: Project;
 </script>
@@ -8,7 +9,7 @@
 <div class="container">
   <h2>{project.title}</h2>
   {#if project.images.length > 0}
-    <img src={project.images[0]} alt="screenshot of the project">
+    <Carousel images={project.images} />
   {/if}
   {#if project.link}
     <div class="link-container">
@@ -43,11 +44,6 @@
     margin-bottom: 0;
     padding: 0 10px;
     border-bottom: 1px solid #aaa;
-  }
-  .container img {
-    border-radius: 10px;
-    width: 100%;
-    height: auto;
   }
   .container .description {
     color: #a8a8a8;

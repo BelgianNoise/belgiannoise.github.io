@@ -91,6 +91,8 @@ export const ProjectWaarStreamen: Project = {
   link: 'https://waar-streamen.nasaj.be',
   images: [
     './screenshots/waar-streamen/logo.png',
+    './screenshots/waar-streamen/home.png',
+    './screenshots/waar-streamen/gezoekt.png',
   ],
   github: 'https://github.com/BelgianNoise/waar-streamen',
 };
