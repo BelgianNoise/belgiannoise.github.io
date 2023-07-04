@@ -24,6 +24,7 @@
 
   const navState = writable<'projects' | 'contributions' | 'busy'>('projects');
   const setNavState = (state: 'projects' | 'contributions' | 'busy') => {
+    if ($navState === state) return;
     navState.set('busy');
     setTimeout(() => navState.set(state), 100);
   };
@@ -88,6 +89,7 @@
     padding: 0 20px 30px 20px;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
   }
 
   .nav {
