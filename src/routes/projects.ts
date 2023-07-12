@@ -78,8 +78,10 @@ export const ProjectColruytPriceHistory: Project = {
   tags: [
     Tag.Svelte,
     Tag.SSR,
+    Tag.PostgreSQL,
     Tag.ChartJS,
     Tag.TS,
+    Tag.GCP,
     Tag.Node,
     Tag.Vercel,
     Tag.HTML,
