@@ -56,9 +56,7 @@ export const ProjectColruytProductScraper: Project = {
   title: 'Colruyt Product Scraper',
   description: `Een tool geschreven in Go om alle producten van Colruyt
   op te halen via hun API om daarna een overzicht te kunnen maken van alle
-  prijsveranderingen. Optimaal komt hier later nog een website bij om de prijs
-  geschiedenis van een product te kunnen bekijken, en worden er wekelijks mails
-  verstuurd met de interessantste prijsveranderingen.`,
+  prijsveranderingen.`,
   tags: [
     Tag.GO,
     Tag.PostgreSQL,
@@ -70,6 +68,29 @@ export const ProjectColruytProductScraper: Project = {
     './screenshots/colruyt-product-scraper/logo.png',
   ],
   github: 'https://github.com/BelgianNoise/colruyt-products-scraper',
+};
+
+export const ProjectColruytPriceHistory: Project = {
+  title: 'Colruyt Price History',
+  description: `Een website waarop een gebruiker de prijsgeschiedenis van
+  alle producten van Colruyt kan bekijken. Op de startpagina is er ook
+  een lijst te zien met de grootste prijsveranderingen van de dag.`,
+  tags: [
+    Tag.Svelte,
+    Tag.SSR,
+    Tag.TS,
+    Tag.Node,
+    Tag.Vercel,
+    Tag.HTML,
+    Tag.CSS,
+  ],
+  link: 'https://colruyt-prijzen.nasaj.be/',
+  images: [
+    './screenshots/colruyt-price-history/product.png',
+    './screenshots/colruyt-price-history/home.png',
+    './screenshots/colruyt-price-history/search.png',
+  ],
+  github: 'https://github.com/BelgianNoise/colruyt-price-history',
 };
 
 export const ProjectWaarStreamen: Project = {

@@ -19,4 +19,5 @@ export enum Tag {
   GithubActions = 'Github Actions',
   Vercel = 'Vercel',
   Redis = 'Redis',
+  SSR = 'SSR',
 }

@@ -117,4 +117,9 @@
     border-color: #D82C20;
     background-color: rgba(216, 44, 32, 0.2);
   }
+  .ssr {
+    color: #FF3E00;
+    border-color: #FF3E00;
+    background-color: rgba(255, 62, 0, 0.2);
+  }
 </style>
