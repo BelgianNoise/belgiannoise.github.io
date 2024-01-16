@@ -122,4 +122,24 @@
     border-color: #FF3E00;
     background-color: rgba(255, 62, 0, 0.2);
   }
+  .vue {
+    color: #41B883;
+    border-color: #41B883;
+    background-color: rgba(65, 184, 131, 0.2);
+  }
+  .nextjs {
+    color: #888;
+    border-color: #888;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .clerk {
+    color: #8D3EFF;
+    border-color: #8D3EFF;
+    background-color: #1f025629;
+  }
+  .drizzle-orm {
+    color: #C5F74F;
+    border-color: #C5F74F;
+    background-color: rgba(197, 247, 79, 0.2);
+  }
 </style>

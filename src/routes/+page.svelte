@@ -5,7 +5,7 @@
   import Project from '../components/project.svelte';
   import Socials from '../components/socials.svelte';
   import type { Project as ProjectType } from '../models/project';
-  import { ProjectColruytPriceHistory, ProjectColruytProductScraper, ProjectContentRequest, ProjectMyPortfolio, ProjectWaarStreamen, ProjectYabat } from './projects';
+  import { ProjectBingo, ProjectColruytPriceHistory, ProjectColruytProductScraper, ProjectContentRequest, ProjectFietsApp, ProjectMyPortfolio, ProjectWaarStreamen, ProjectYabat } from './projects';
   import { fly } from 'svelte/transition';
   import { ContributionCSS, ContributionHandlersjs } from './contributions';
 
@@ -14,6 +14,8 @@
     ProjectContentRequest,
     ProjectColruytProductScraper,
     ProjectColruytPriceHistory,
+    ProjectBingo,
+    ProjectFietsApp,
     ProjectWaarStreamen,
     ProjectMyPortfolio,
   ];

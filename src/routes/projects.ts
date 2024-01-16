@@ -135,3 +135,55 @@ export const ProjectMyPortfolio: Project = {
   images: [],
   github: 'https://github.com/BelgianNoise/belgiannoise.github.io',
 };
+
+export const ProjectBingo: Project = {
+  title: 'Bingo',
+  description: 'Maak, beheer, speel en deel je eigen Bingo spellen.',
+  tags: [
+    Tag.VUE,
+    Tag.TS,
+    Tag.Firebase,
+    Tag.GithubActions,
+    Tag.Node,
+    Tag.HTML,
+    Tag.CSS,
+  ],
+  link: 'https://bingo.nasaj.be',
+  images: [
+    './screenshots/bingo/home.png',
+    './screenshots/bingo/card.png',
+    './screenshots/bingo/pricing.png',
+    './screenshots/bingo/game.png',
+    './screenshots/bingo/create.png',
+  ],
+  github: 'https://github.com/BelgianNoise/bingo-card-generator',
+}
+
+export const ProjectFietsApp: Project = {
+  title: 'FietsApp [WIP]',
+  description: `Een app voor fietsenmakers en hun klanten om makkelijk een logboek bij te houden
+    van hun fietsen. Clerk.js wordt gebruikt voor authenticatie en authorisatie. Een klant kiest welke
+    fietsenmakers gij toegang geeft tot welke fietsen. De fietsenmaker kan dan een onderhoud loggen.`,
+  tags: [
+    Tag.NEXTJS,
+    Tag.CLERK,
+    Tag.React,
+    Tag.Vercel,
+    Tag.DRIZZLE,
+    Tag.SSR,
+    Tag.TS,
+    Tag.Node,
+    Tag.HTML,
+    Tag.CSS,
+  ],
+  link: 'https://fietsapp.vercel.app/',
+  images: [
+    './screenshots/fietsapp/auth.png',
+    './screenshots/fietsapp/loader.png',
+    './screenshots/fietsapp/clients.png',
+    './screenshots/fietsapp/bike.png',
+    './screenshots/fietsapp/timeline.png',
+    './screenshots/fietsapp/details.png',
+  ],
+  github: 'https://github.com/BelgianNoise/fietsapp',
+}

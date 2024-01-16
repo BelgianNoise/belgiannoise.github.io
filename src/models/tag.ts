@@ -20,4 +20,8 @@ export enum Tag {
   Vercel = 'Vercel',
   Redis = 'Redis',
   SSR = 'SSR',
+  VUE = 'Vue',
+  NEXTJS = 'NextJS',
+  CLERK = 'Clerk',
+  DRIZZLE = 'Drizzle-ORM',
 }
