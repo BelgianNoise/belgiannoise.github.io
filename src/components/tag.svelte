@@ -142,4 +142,22 @@
     border-color: #C5F74F;
     background-color: rgba(197, 247, 79, 0.2);
   }
+
+  .chrome {
+    color: #FF3E00;
+    border-color: #FF3E00;
+    background-color: rgba(255, 62, 0, 0.2);
+  }
+
+  .python {
+    color: #3776AB;
+    border-color: #3776AB;
+    background-color: rgba(55, 118, 171, 0.2);
+  }
+
+  .drm {
+    color: #FF3E00;
+    border-color: #FF3E00;
+    background-color: rgba(255, 62, 0, 0.2);
+  }
 </style>

@@ -187,3 +187,25 @@ export const ProjectFietsApp: Project = {
   ],
   github: 'https://github.com/BelgianNoise/fietsapp',
 }
+
+export const ProjectDLUtils: Project = {
+  title: 'dl-utils',
+  description: `Tools die me helpen bij het downloaden van media, bestaande uit 3 delen:
+    een chrome extensie die download knoppen toevoegd op bepaalde paginas,
+    een kleine REST API die de download requests opvangt en opslaat in een databank en
+    een tool die de databank monitort en de downloads uitvoert.`,
+  tags: [
+    Tag.PYTHON,
+    Tag.DRM,
+    Tag.TS,
+    Tag.CHROME,
+    Tag.PostgreSQL,
+    Tag.React,
+    Tag.EXPRESS,
+    Tag.GCP,
+  ],
+  link: undefined,
+  images: [],
+  github: 'https://github.com/BelgianNoise/dl-utils',
+}
+

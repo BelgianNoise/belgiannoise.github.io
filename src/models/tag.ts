@@ -24,4 +24,8 @@ export enum Tag {
   NEXTJS = 'NextJS',
   CLERK = 'Clerk',
   DRIZZLE = 'Drizzle-ORM',
+  PYTHON = 'Python',
+  DRM = 'DRM',
+  CHROME = 'Chrome Extension',
+  EXPRESS = 'Express',
 }
