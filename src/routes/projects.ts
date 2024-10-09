@@ -209,3 +209,18 @@ export const ProjectDLUtils: Project = {
   github: 'https://github.com/BelgianNoise/dl-utils',
 }
 
+export const ProjectAikidoGithub: Project = {
+  title: 'Aikido Github',
+  description: `Een chrome extensie die op github een kort overzicht geeeft
+    van aikido.dev vulnerabilities.`,
+  tags: [
+    Tag.TS,
+    Tag.CHROME,
+    Tag.React,
+  ],
+  link: 'https://chromewebstore.google.com/detail/aikido-github-integration/cgnllcabmaaodmnoddjohdaimhabbadg',
+  images: [
+    './screenshots/aikido-github/screen.png'
+  ],
+  github: 'https://github.com/BelgianNoise/aikido-github-chrome-extension',
+}
