@@ -5,7 +5,7 @@
   import Project from '../components/project.svelte';
   import Socials from '../components/socials.svelte';
   import type { Project as ProjectType } from '../models/project';
-  import { ProjectAikidoGithub, ProjectBingo, ProjectColruytPriceHistory, ProjectColruytProductScraper, ProjectContentRequest, ProjectDLUtils, ProjectFietsApp, ProjectMyPortfolio, ProjectWaarStreamen, ProjectYabat } from './projects';
+  import { ProjectAikidoGithub, ProjectBingo, ProjectColruytPriceHistory, ProjectColruytProductScraper, ProjectContentRequest, ProjectDLUtils, ProjectFietsApp, ProjectGoChiSQLiteJWTStarter, ProjectMyPortfolio, ProjectWaarStreamen, ProjectYabat } from './projects';
   import { fly } from 'svelte/transition';
   import { ContributionCSS, ContributionHandlersjs } from './contributions';
 
@@ -15,6 +15,7 @@
     ProjectDLUtils,
     ProjectColruytProductScraper,
     ProjectColruytPriceHistory,
+    ProjectGoChiSQLiteJWTStarter,
     ProjectBingo,
     ProjectFietsApp,
     ProjectAikidoGithub,

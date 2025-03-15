@@ -224,3 +224,16 @@ export const ProjectAikidoGithub: Project = {
   ],
   github: 'https://github.com/BelgianNoise/aikido-github-chrome-extension',
 }
+
+export const ProjectGoChiSQLiteJWTStarter: Project = {
+  title: 'Go Chi SQLite JWT Starter project',
+  description: `Een robust starter project gebouwd met go-chi router, SQLite database en JWT authenticatie.`,
+  tags: [
+    Tag.GO,
+    Tag.SQLITE,
+    Tag.JWT_AUTHENTICATION,
+  ],
+  link: undefined,
+  images: [],
+  github: 'https://github.com/BelgianNoise/go-chi-sqlite-jwt-starter',
+}

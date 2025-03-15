@@ -28,4 +28,6 @@ export enum Tag {
   DRM = 'DRM',
   CHROME = 'Chrome Extension',
   EXPRESS = 'Express',
+  SQLITE = 'SQLite',
+  JWT_AUTHENTICATION = 'JWT Authentication',
 }

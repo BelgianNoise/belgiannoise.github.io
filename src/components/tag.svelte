@@ -160,4 +160,16 @@
     border-color: #FF3E00;
     background-color: rgba(255, 62, 0, 0.2);
   }
+
+  .sqlite {
+    color: #0078A8;
+    border-color: #0078A8;
+    background-color: rgba(0, 120, 168, 0.2);
+  }
+
+  .jwt {
+    color: #EB5424; /* Auth0 color */
+    border-color: #EB5424;
+    background-color: rgba(235, 84, 36, 0.2);
+  }
 </style>
